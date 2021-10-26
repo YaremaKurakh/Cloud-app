@@ -1,0 +1,29 @@
+.wrapper{
+  padding: 20px 0 0 210px;
+  width: 800px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template: repeat(2, 200px) / repeat(4, 150px);
+  gap: 50px;
+  row-gap: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px 0 0 20px;
+}
+
+.grid-elem a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+img{
+  height: 120px;
+}
+
+

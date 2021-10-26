@@ -1,0 +1,39 @@
+.grid-container{
+  display: grid;
+  grid-template: 60px / 50px 100px 800px 150px;
+  gap: 20px;
+  padding: 20px 0 0 20px ;
+}
+
+.grid-elem{
+  display: block;
+  height: 50px;
+  .h1-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+h1{
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.input{
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.btn{
+  height: 54px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 18px;
+}
+
+
+
+
